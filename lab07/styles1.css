@@ -4,8 +4,9 @@ p { color:#adcae0;}
 ul {color:#adcae0;}
 a {color:#8c2018}
 nav { background-color: #c8d0de;}
-nav a{color: 9;}
-nav a:hover{ background-color: #bfdadb;}
+nav a{color: #315712;}
+nav a:hover{ background-color: #1f2263;}
+nav a:hover{color:#d6c774}
 nav {padding: 10px;}
 nav {margin-bottom: 30px}
 
