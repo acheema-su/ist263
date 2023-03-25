@@ -1,0 +1,50 @@
+body {background-color: #041c2e;}
+body {color: #adcae0;}
+h1, h2{ color:#bfdadb;}
+p { color:#adcae0;}
+ul {color:#adcae0;}
+table {color: #adcae0;}
+a {color:#8c2018}
+footer {color: #adcae0;}
+form {color: #adcae0;}
+nav { background-color: #c8d0de;}
+nav a{color: #315712;}
+nav a:hover{ background-color: #1f2263;}
+nav a:hover{color:#d6c774}
+nav {padding: 10px;}
+nav {margin-bottom: 30px}
+.col1 {float: left;
+    margin-left: 10px;  
+}
+.col2 {float: right;
+    margin-right: 10px;
+}
+
+
+.row1, .row2 {display: flex;}
+.row1 div {flex: 1;
+    padding: 10px;}
+.row2 div{ flex: 2;
+padding: 10px;}
+.row1 {flex: 2; background-color: darkslategray; border-radius: 1em;}
+.row2{flex: 2; background-color: darkslategray; border-radius: 1em;}
+h1 {text-align: center;}
+i {color: #adcae0; font-size: 40px;}
+.flexbox2 {
+    display: flex; 
+    justify-content: space-between;
+    
+}
+.firstrow {
+    display: flex;
+    justify-content: space-around;
+}
+aside {background-color: darkslategrey; border-radius: 25px; padding: 5px;}
+
+
+
+
+
+
+
+
