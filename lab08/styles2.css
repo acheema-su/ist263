@@ -1,4 +1,9 @@
 body {background-color: #041c2e;}
+table {background-color: #adcae0;}
+td, th {
+    background-color: transparent;
+  }
+caption{color: #adcae0;}
 h1, h2{ color:#bfdadb;}
 p { color:#adcae0;}
 ul {color:#adcae0;}
@@ -17,15 +22,21 @@ nav {margin-bottom: 30px}
 .col2 {float: right;
     margin-right: 10px;
 }
-
-
+.paragraph img{
+    float: left;
+    margin-right: 20px;
+}
 .row1, .row2 {display: flex;}
 .row1 div {flex: 1;
     padding: 10px;}
 .row2 div{ flex: 2;
 padding: 10px;}
-.row1 {flex: 2; background-color: darkslategray; border-radius: 1em;}
-.row2{flex: 2; background-color: darkslategray; border-radius: 1em;}
+.row1 {
+    margin-bottom: 20px;
+  }
+ 
+.row1 {flex: 2; background-color: #1f2263; border-radius: 1em;}
+.row2{flex: 2; background-color: #1f2263; border-radius: 1em;}
 
 
 
