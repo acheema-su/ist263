@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="rewiews.css">
+    <style>
+   /* body {
+        background-image: url(../project/images/london1.jpeg);
+        background-size: 100%;
+    }*/
+ 
+        footer {
+            background-color:rgba(0, 0, 0, 0.4);
+            color: #fff;
+            padding: 10px;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+        }
+        
+        
+        .inline {
+        
+            color: white; 
+        }
+        #zoom-heading {
+            font-size: 4em;
+            transition: font-size 1s ease-in-out, margin-top 1s ease-in-out;
+            margin-top: 0;
+        }
+    
+        /*nav {
+            background-color: rgba(236, 246, 251, 0.4);
+        }*/
+    
+     
+    </style>
+    <script>
+        window.onload = function() {
+        setTimeout(function() {
+        document.getElementById('zoom-heading').style.fontSize = '8em';
+        document.getElementById('zoom-heading').style.marginTop = '30vh';
+         }, 100);
+        }
+
+    </script>
+</head>
+<body>
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="countries.html">Countries</a>
+        <a href="reviews.html">Reviews</a>
+    </nav>
+<h1 id="zoom-heading">Welcome to A.S Travels!</h1>
+<h2>Experience the World, one adventure at a time.</h2>
+<!-- <img src="../project/images/Rome.jpeg" alt="Rome"> -->
+<footer>
+<p>Looking for the ultimate vacation spot? <a href="countries.html" class="inline">Click here</a> to learn more.</p>
+</footer>
+</body>
+</html>

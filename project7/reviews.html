@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reviews</title>
+    <link rel="stylesheet" href="rewiews.css">
+    <style>
+        form,p {
+            font-size: 1.5em;
+            margin: 10px;
+        }
+        textarea, input {
+            margin-top: 10px;
+          background-color: #b1bfd4;
+          
+        }
+        .last {
+            text-align: center;
+        }
+       
+    </style>
+
+</head>
+<body>
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="countries.html">Countries</a>
+        <a href="reviews.html">Reviews</a>
+    </nav>
+
+    <h1>Most Visited Iconic Tourist Attraction Sites</h1>
+    <!--<h2>Times Square, World Trade Center, Taj Mahal Restaurant, Istanbul Restaurant </h2> -->
+    <h2>Reviews from Our Tourists</h2>
+    
+        <div class="row1">
+        <div class="image-container">
+        <img src="../project/images/skyline.jpeg" alt="Skyline">
+        "I would give the greatest sunset in the world for one sight of New York’s skyline." - Ayn Rand   <br>
+        </div>
+       
+        <!--"I think of New York as the cultural capital of America. It’s the most vibrant, most exciting city in the world." - Will Smith <img src="../project/images/New_york_times_square-terabass.jpg" alt="Timessquare"> <br> -->
+        <div class="image-container">
+        <img src="../project/images/visiter-bangkok-1.jpg" alt="Bangkok">
+        "Bangkok has a pulsating energy that can't be found anywhere else in the world." - Anthony Bourdain  <br>
+        </div>
+        <div class="image-container">
+        <img src="../project/images/mosque-turkey-minaret-istanbul.jpg" alt="">
+        "Istanbul is one of the most exotic and fascinating cities in the world. The moment you arrive, you are transported to another era." - Steven Spielberg  <br>
+        </div>
+    </div>
+   
+<br>
+        
+        <form action="https://formspree.io/f/mzbqezoy"  method="POST">
+        <label for="yourreview">Post Your Review about your city here: </label> <br>
+            <textarea name="yourreview" id="yourreview" cols="44" rows="2"></textarea>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+            <br>
+        <p class="last">Thank You for Visiting Our Site</p> 
+        
+</body>
+</html>
